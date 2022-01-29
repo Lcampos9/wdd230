@@ -5,8 +5,10 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>San Marcos Chamber of Commerce</title>
+      <link rel="stylesheet" href="/wdd230/chamber/css/normalize.css"> 
       <link rel="stylesheet" href="/wdd230/chamber/css/base.css">
-      <link rel="stylesheet" href="/wdd230/chamber/css/normalize.css">
+      <link rel="stylesheet" href="/wdd230/chamber/css/medium.css">
+      <link rel="stylesheet" href="/wdd230/chamber/css/large.css"> 
    </head>
    <body>
       <div id="content">
@@ -19,26 +21,46 @@
                <p class="paragraph-header">Chamber of Commerce</p>
             </div>
             <div class="social">
-               <img src="https://cdn.glitch.global/837ae805-c045-4913-beec-ade19650cbad/logo-Facebook-icon-modern-social-media-png.png?v=1642893655131" width="50" alt="facebook">
-               <img src="https://cdn.glitch.global/837ae805-c045-4913-beec-ade19650cbad/Illustration-of-Linkedin-icon-on-transparent-background-PNG.png?v=1642893707268" width="40" alt="linkedin">
+               <img src="https://cdn.glitch.global/837ae805-c045-4913-beec-ade19650cbad/logo-Facebook-icon-modern-social-media-png.png?v=1642893655131" width="15" alt="facebook">
+               <img src="https://cdn.glitch.global/837ae805-c045-4913-beec-ade19650cbad/Illustration-of-Linkedin-icon-on-transparent-background-PNG.png?v=1642893707268" width="15" alt="linkedin">
             </div> 
             <nav class="nav">
-               <ul>
-                  <li><a href="">Discover</a></li>
-                  <li><a href="">Directory</a></li>
-                  <li><a href="">Join</a></li>
-                  <li><a href="">Contact</a></li> 
+               <button id="hamburgerBtn">&#9776;</button>
+               <ul id="primaryNav">
+                  <li><a href="#">Discover</a></li>
+                  <li><a href="#">Directory</a></li>
+                  <li><a href="#">Join</a></li>
+                  <li><a href="#">Contact</a></li> 
                </ul>
             </nav>
                <span class="date-header">Current Date is</span>
          </header>
          
          <main>
-            <section class=""> </section>
-            <section class=""></section>
-            <section class=""> </section>
-            <section class=""></section>
-            <section class=""></section>
+            <section class="hero"> 
+               <p>hero</p>
+            </section>
+            <section class="event">
+               <p>event</p>
+            </section>
+            <section class="spolight">
+               <div class="spotlight-1">
+                  <p>spotlight 1</p>
+               </div>
+               <div class="spotlight-2">
+                  <p>spotlight 1</p>
+               </div>
+               <div class="spotlight-3">
+                  <p>spotlight 1</p>
+               </div>
+            </section>
+            <section class="weather">
+               <p>weather</p>   
+            </section>
+            
+            <section class="news"><p>news</p></section>
+            <section class="join"><p>join</p></section>
+            
          </main>
          <!-- Footer -->
          <footer>
@@ -49,6 +71,8 @@
             
          </footer>
       </div>
-      <script src="/wdd230/lesson1/js/index.js"></script>
+      <script src="js/nav.js"></script>
+      <script src="lesson1/js/index.js"></script>
+      
    </body>
 </html>
