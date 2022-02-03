@@ -7,6 +7,10 @@
     padding-left: 15rem;
 	padding-right: 15rem;
     }
+    .social img {
+        width: 40px;
+        border-radius: 40px;
+    }
         main {
             display: grid;
             grid-template-columns: 70% 30%;
@@ -55,6 +59,58 @@
             max-width: 700px;
             margin: 0 auto;
         }
+footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 2px 90px;
+}
 
+.one-footer {
+    display: grid;
+    grid-template-columns: .9fr 1.2fr 1.5fr;
+    grid-template-rows: 60px 60px 60px;
+}
 
+.logo-box {
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+
+.title-footer {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-size: 20px;
+    justify-self: bottom;
+    align-self:center;
+}
+
+.address-footer{
+    grid-column: 2/3;
+    grid-row: 2/4;
+    font-size: 16px;
+    justify-self: center;
+    align-self: center;
+}
+.email-footer{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: center;
+    font-size: 16px;
+}
+
+.phone-footer{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    justify-self: center;
+    align-self: center;
+    font-size: 16px;
+} 
+.map-footer {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    justify-self: center;
+    align-self: center;
+    font-size: 16px;
+}
 }

@@ -36,25 +36,45 @@
          padding-left: 25rem;
          padding-right: 25rem;
      }
-     nav{
+     .nav {
         grid-column: 3/4;
         grid-row: 1/2;
         justify-self: center;
         align-self: center;
+        background-color: transparent;
     }
 
     nav ul#primaryNav{
         display: flex;
-        
-    }
-    nav ul li{
-        padding: 1.4rem;
-  
+        position: relative;
+        margin: 0 0 auto;
+        width: auto;
+        height: auto;
     }
     
+    nav ul {
+        background-color: transparent;
+    }
+    nav ul li{
+        padding: 1rem;
+        margin: 2px;
+  
+    }
+
+    nav ul li a {
+        font-size: 18px;
+        color: black;
+    }    
     .social {
         grid-column: 4/5;
     }
+
+    .social img {
+        width: 40px;
+        border-radius: 40px;
+    }
+
+
     .date-header {
         grid-column: 1/5;
     }
