@@ -12,9 +12,10 @@ body {
 }
 header {
 	display:grid;
-	grid-template-columns: 0.2fr 1fr 0.4fr 0.9fr;
+	grid-template-columns: 0.3fr 1fr 0.4fr 0.3fr;
 	grid-template-rows: 90px 35px;
 	gap: 5px;
+	justify-items: center;
 	background-color: #8f9497;
 }
 
@@ -45,11 +46,15 @@ nav ul.open {
 	margin: 5px;
 	border-radius: 5px;
 }
+nav ul.open a:hover{
+	color: white;
+	background-color: black;
+}
 nav ul.open li{
 	margin: 15px;
 }
 .logo-box img{
-	width:65px;
+	width:50px;
 	border-radius: 40px;
 }
 .logo-box, .content-header, .social {
@@ -57,14 +62,25 @@ nav ul.open li{
 	align-self: center;
 	
 }
+
+.content-header h1, p {
+	text-align: center;
+}
 .social img {
-	width: 20px;
+	width: 30px;
 	border-radius: 40px;
+	justify-self: center;
+	align-self: center;
+}
+#hamburgerBtn {
+	width: 30px;
+	height: 30px;
 }
  nav {
 	justify-self: center;
 	align-self: center;
  }
+
 .content-header h1{
 	font-size: 18px;
 	margin: 0;
@@ -149,6 +165,9 @@ footer{
 }
 .one-footer p, .two-footer p{
 	margin:4px;
+}
+.logo-box-two img {
+    border-radius: 40px;
 }
 
 .title-footer{

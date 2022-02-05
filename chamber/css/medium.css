@@ -4,12 +4,24 @@
         background-color: #8f9497;
     }
     .date-header {
-    padding-left: 15rem;
-	padding-right: 15rem;
+        justify-content: center;
+    }
+    .logo-box img{
+        width:70px;
+
     }
     .social img {
         width: 40px;
-        border-radius: 40px;
+
+    }
+
+    .content-header h1{
+
+        font-size: 29px;
+    }
+    #hamburgerBtn {
+        width: 40px;
+        height: 40px;
     }
         main {
             display: grid;
@@ -62,25 +74,28 @@
 footer {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 200px 2px 90px;
+    grid-template-rows: 150px 2px 70px;
 }
 
 .one-footer {
     display: grid;
-    grid-template-columns: .9fr 1.2fr 1.5fr;
-    grid-template-rows: 60px 60px 60px;
+    grid-template-columns: .9fr 1.3fr 1fr;
+    grid-template-rows: 50px 50px 50px;
 }
 
-.logo-box {
+.logo-box-two {
     grid-column: 1/2;
     grid-row: 1/4;
+    justify-self: center;
+    align-self: center;
+    
 }
 
 .title-footer {
     grid-column: 2/3;
-    grid-row: 1/2;
+    grid-row: 1/3;
     font-size: 20px;
-    justify-self: bottom;
+    justify-self: end;
     align-self:center;
 }
 
@@ -113,4 +128,15 @@ footer {
     align-self: center;
     font-size: 16px;
 }
+
+.two-footer {
+    font-size: 12px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.one, .two, .three {
+	display: block;
+}
+
 }
