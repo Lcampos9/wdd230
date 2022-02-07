@@ -12,6 +12,11 @@ body {
 
 }
 
+#banner {
+	background-color: #FFAD60;
+	color:rgb(145, 37, 37);
+}
+
 /*Here starts the header config*/
 header {
 	
