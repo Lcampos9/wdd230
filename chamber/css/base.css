@@ -125,9 +125,9 @@ main {
 	font-size: 0.8rem;
 }
 .hero {
-	background-image: url(/wdd230/chamber/images/sanmarcosmobile.png) ;
+	/*background-image: url(/wdd230/chamber/images/sanmarcosmobile.png) ;
 	background-repeat: no-repeat;
-	background-position: bottom center;
+	background-position: bottom center;*/
 	position: relative;
 	opacity: 0.8;
 }

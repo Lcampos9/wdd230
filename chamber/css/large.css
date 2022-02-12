@@ -104,9 +104,9 @@
     .hero{
         grid-column: 2/4;
         grid-row:1/3;
-        background-image: url(/wdd230/chamber/images/sanmarcosdesktop.png);
+        /*background-image: url(/wdd230/chamber/images/sanmarcosdesktop.png);
         background-repeat: no-repeat;
-        background-position: bottom center;
+        background-position: bottom center;*/
     }
     .weather{
         grid-column: 1/2;
