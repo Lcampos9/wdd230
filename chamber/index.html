@@ -42,7 +42,10 @@
          <main>
             <section class="hero">
                <picture class="hero-picture">
-                  <img src="images/hero-image.jpg" alt="hero" srcset="images/hero-desktop.png 1x, images/hero-medium.jpg 2x, images/hero-small.png 3x" >
+                  <source media="(max-width: 600px)" srcset="images/sanmarcos600px.jpg">
+                  <source media="(max-width: 960px)" srcset="images/sanmarcos700px.jpg">
+                  <source media="(max-width: 1700px)" srcset="images/sanmarcos.jpg">
+                  <img src="images/sanmarcos.jpg" alt="hero">
                </picture>
                <h1 class="hero-h1">Welcome to San Marcos</h1>
                <button type="button" class="button-hero"> <strong>Join the Chamber</strong></button>
