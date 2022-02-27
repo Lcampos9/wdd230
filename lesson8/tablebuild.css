@@ -21,6 +21,11 @@ tr:first-child th {
 	color: white;
 }
 
+
+tfoot{
+    background-color: rgb(60, 60, 177);
+	color: white;
+}
 th, td {
 	padding: 7px 15px;
 	border: 1px solid black;
