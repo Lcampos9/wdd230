@@ -366,6 +366,23 @@ footer{
  */
  
  /*Join Page*/
+.mainjoin {
+	display: block;
+}
+
+.form{
+		display: block;
+		text-align: center;
+	
+}
+
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
 
  /*-------------------FORM---------------*/
 
@@ -382,15 +399,16 @@ form legend {
     padding: 0 .5rem;
 }
 
-form label.top, form div {
+form label.top, form div, textarea {
     display: block;
     padding-top: 1rem;
     color: #9c2c13;
     font-size: .8rem;
 
+
 }
 
-form label.top input, form label.top select {
+form label.top input, form label.top select, textarea{
     display:block;
     font-size: 1rem;
     border: solid 1px #999;
@@ -398,15 +416,9 @@ form label.top input, form label.top select {
     padding: .75rem;
     color: #555;
     width: 100%;
-    max-width: 20rem;
+    max-width: 25rem;
     background-color: rgba(0,0,0,0.1);
 
-}
-
-form label.sbs {
-    display: block;
-    padding: .75rem 0;
-    color: #555;
 }
 
 form input.submitBtn {
@@ -428,4 +440,9 @@ form label.top input:required{
 form label.top input:required:valid{
     border-left: green solid 6px;
 
+}
+
+.joinh1 {
+
+	text-align: center;
 }
