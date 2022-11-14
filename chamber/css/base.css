@@ -25,8 +25,6 @@ header {
 	grid-template-rows: 90px 35px;
 	gap: 5px;
 	justify-items: center;
-	background-color: #3e6a88;
-	color: #eee;
 }
 
 
